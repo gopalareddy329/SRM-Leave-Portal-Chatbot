@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react'
-import Nav from '../components/nav'
 import { useState,useRef } from 'react';
 import {IoSend} from 'react-icons/io5'
 import {AiOutlineLoading3Quarters} from 'react-icons/ai'
-
+import {BASE_API} from '../utils/api'
 const Chat = () => {
     const [message, setMessage] = useState(''); 
     const [userMessages,setUserMessages]=useState([])
@@ -33,6 +32,12 @@ const Chat = () => {
     scrollToBottom();
     
   }, [BotMessages,userMessages,loading]);
+  function formatApiResponse(apiResponse) {
+    let formattedResponse = apiResponse.replace(/\n/g, '<br>');
+    formattedResponse = formattedResponse.replace(/\t/g, '&nbsp;&nbsp;&nbsp;');
+    formattedResponse = formattedResponse.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    return formattedResponse;
+  }
 
 
   const handelSubmit= (event)=>{
@@ -44,12 +49,19 @@ const Chat = () => {
     const fetchResponse = async () =>{
         updateLoding(true)
         try{
-          var url=`http://127.0.0.1:8000/api/getres/?question=${encodeURIComponent(event.target.elements.userquerry.value)}/`;
-          await fetch(url).then(response => response.json()).then(data => {setBotMessages([...BotMessages,data])}).catch(error => console.error(error));
+          var url=`${BASE_API}/api/getres/?question=${encodeURIComponent(event.target.elements.userquerry.value)}/`;
+          const res= await fetch(url)
+          const response = await res.json()
+          if(res.ok){
+            const value= await formatApiResponse(response.response)
+            setBotMessages([...BotMessages,{"response":value}])
+          }else{
+            throw res.error
+          }
           
         }
         catch{
-          setBotMessages([...BotMessages,{"name":"unable to load"}])
+          setBotMessages([...BotMessages,{"response":"unable to load"}])
 
           
         }
@@ -63,33 +75,32 @@ const Chat = () => {
 
   
   return (
-    <div className='overflow-hidden h-screen'>
-      <Nav />
-        <div className='md:grid md:grid-cols-1fr-3fr mt-[90px]'>
-            <div className='bg-[#003554] h-screen flex justify-center items-center    max-md:hidden relative'>
+    <div className='overflow-hidden '>
+      
+        <div className='flex   h-screen'>
+            <div className='bg-[#003554] w-[30%] flex justify-center items-center  h-full  max-md:hidden '>
                 <div className='flex h-full w-full flex-cols justify-center items-center '>
                     <h1 className='text-[40px] text-white font-bold max-md:text-[20px] text-center  '> SRM Portal Chat Bot</h1>
                 </div>
             </div>
 
-            <div  className='bg-[#3c4d55]   max-md:min-h-screen  flex  h-screen relative justify-center '>
+            <div  className='bg-[#3c4d55]  min-h-[90%]  flex  w-[70%]  max-md:w-full relative justify-center h-full'>
 
             
-                    <div ref={scrollContainerRef} className='overflow-y-scroll h-[80%] hide-scrollbar    max-md:w-full sm:w-[900px] md:w-[650px] lg:w-[800px]'>
+                    <div ref={scrollContainerRef} className='overflow-y-scroll transform   transition-all ease-in-out duration-500 max-h-screen py-20 hide-scrollbar    max-md:w-full sm:w-[900px] md:w-[90%]  2xl:w-[70%]'>
                         <div className='mb-5 '>
                                 {userMessages.map((e,key)=>
                                 <div key={key} className=' w-full '>
                                     <div  className='user-input-bg ' >
-                                            <div className='user-input-warrper w-[90%] md:w-[70%]'>  
+                                            <div className='user-input-warrper bg-[#2e373b] w-[90%] md:w-[70%]'>  
                                                         <h1 className='m-3 break-all'>{e}</h1><br/>   
 
                                             </div> 
                                     </div>
-                                    {<div className='bot-input-bg bg-transparent '>
-                                        <div className='bot-input-warrper w-[90%] md:w-[70%] '>
+                                    {BotMessages[key]!=null && <div className='bot-input-bg bg-transparent '>
+                                        <div className='bot-input-warrper w-[90%] md:w-[70%] ' dangerouslySetInnerHTML={{ __html: (BotMessages[key].response) }} />
                                         
-                                                {BotMessages[key]!=null && <p className=' break-all'>{BotMessages[key].name}</p>}
-                                        </div>
+                                        
                                     </div>}
                                     
                         

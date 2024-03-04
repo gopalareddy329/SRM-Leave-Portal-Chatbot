@@ -1,15 +1,16 @@
 import React from 'react'
-import Home from './pages/home'
-
-
+import Home from './pages/home/Home'
+import PopUp from './components/popUp/PopUp'
 const App = () => {
   return (
-    <h1>
+    <div className='relative'>
       
       <Home/>
+      <PopUp/>
+      
       
 
-    </h1>
+    </div>
   )
 }
 

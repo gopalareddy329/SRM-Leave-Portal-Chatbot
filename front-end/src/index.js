@@ -7,21 +7,23 @@ import reportWebVitals from './reportWebVitals';
 import Chat from './pages/chat'
 import Contact from './pages/contact';
 import Login from './pages/login';
+import Nav from './components/nav/Nav'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   
   <BrowserRouter>
-  
-    <Routes>
-        
-        <Route path='/' element={<App/>}/>
     
+    <Nav/>
+   
+    <Routes>
+        <Route path='/' element={<App/>}/>
         <Route  path='/chat' element={<Chat/>}/>
         <Route  path='/contact' element={<Contact/>}/>
         <Route  path='/login' element={<Login/>}/>
     </Routes>
+   
   </BrowserRouter>
 );
 
