@@ -70,11 +70,11 @@ const Chat = ({setShowChat}) => {
       }
   return (
     <main className='fixed my-font right-0  lg:w-[50%] max-sm:w-full  md:w-[80%] max-md:w-[90%] flex   items-center justify-center sm:items-end sm:justify-end   z-[100] bottom-0'>
-            <section className=" flex flex-col items-center justify-center sm:items-end sm:justify-end  min-h-[35rem] h-[30vw] sm:w-[80%]  text-gray-800 sm:px-10">
+            <section className=" flex flex-col items-center justify-center max-sm:w-[95%] sm:items-end sm:justify-end  min-h-[30rem] h-[30vw] sm:w-[80%]  text-gray-800 sm:px-10">
 
                 
 
-                <div className="flex flex-col flex-grow w-full max-w-xl bg-gray-200 shadow-xl rounded-lg overflow-hidden">
+                <div className="flex flex-col flex-grow w-full max-w-xl bg-gray-200 max-sm:w-full shadow-xl rounded-lg overflow-hidden">
                 <div className='p-2 flex w-full justify-end'><IoCloseSharp size={30} onClick={()=>{setShowChat(false)}}/></div>
                     <div ref={scrollContainerRef} className="flex flex-col items-center flex-grow h-0 p-2 overflow-auto">
 
