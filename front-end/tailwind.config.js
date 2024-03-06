@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      transitionDuration: {
+        '2000': '2000ms',
+      },
       gridTemplateColumns: {
         '1fr-3fr': '1fr 3fr',
       },

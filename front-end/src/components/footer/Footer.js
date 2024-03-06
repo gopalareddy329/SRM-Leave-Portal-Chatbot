@@ -8,7 +8,7 @@ const Footer = () => {
                         <img alt='img-logo3' style={{"mixBlendMode":"screen"}} className='w-40' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQocT5S9GtzMZYvJY1FBcMRa10wqXIylo3jbB_NA9yaB0nBBfjoDobqE_-TDfcBxEpInTA&usqp=CAU"/>
                       
                       </div>
-                      <h2 className=' text-[16px] 2xl:text-[24px]  '>© 2023 Chat Haven. All rights reserved.</h2>
+                      <h2 className=' text-[16px] 2xl:text-[24px]  '>© 2023 All rights reserved.</h2>
                       <p className='my-font text-[16px] 2xl:text-[24px] max-w-[500px] opacity-[0.5]'>Created on Feb 29, 2024</p>
     </div>
   )

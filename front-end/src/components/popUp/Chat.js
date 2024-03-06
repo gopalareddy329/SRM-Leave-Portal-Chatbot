@@ -80,10 +80,16 @@ const Chat = ({setShowChat}) => {
 
                         <div className="flex items-center justify-end space-x-3  mt-1  w-full">
                                 <div className="flex flex-col justify-end items-end gap-2 p-2">
+
+                                    <div  className='space-x-3 p-3 rounded-r-lg   rounded-bl-lg ' >
+                                            <div>  
+                                                        <h1 className='text-black'>Hi , I am your virtual leave application assitant , I am here to help you with information about leave types and eligibility criteria. Feel free to ask any queries</h1><br/>   
+                                            </div> 
+                                    </div>
                                        
                                     
                                         {userMessages.map((e,key)=>
-                                            <div key={key} className=' w-full   space-x-3 flex flex-col justify-end items-end gap-2'>
+                                            <div key={key} className=' w-full    flex flex-col justify-end items-end gap-2'>
                                                         <div className='bg-blue-600 space-x-3 text-white ml-auto justify-end max-w-xs p-3 rounded-r-lg rounded-bl-lg'>  
                                                                     <h1 className='break-all text-sm'>{e}</h1>   
                                                         </div>

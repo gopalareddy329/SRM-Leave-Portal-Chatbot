@@ -88,7 +88,12 @@ const Chat = () => {
 
             
                     <div ref={scrollContainerRef} className='overflow-y-scroll transform   transition-all ease-in-out duration-500 max-h-screen py-20 hide-scrollbar    max-md:w-full sm:w-[900px] md:w-[90%]  2xl:w-[70%]'>
-                        <div className='mb-5 '>
+                              <div className='mb-5 '>
+                                    <div  className='bot-input-bg bg-transparent ' >
+                                            <div className='bot-input-warrper w-[90%] md:w-[70%] '>  
+                                                        <h1 className='m-3 '>Hi , I am your virtual leave application assitant , I am here to help you with information about leave types and eligibility criteria. Feel free to ask any queries</h1><br/>   
+                                            </div> 
+                                    </div>
                                 {userMessages.map((e,key)=>
                                 <div key={key} className=' w-full '>
                                     <div  className='user-input-bg ' >
