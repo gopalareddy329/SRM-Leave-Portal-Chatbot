@@ -192,5 +192,5 @@ cython_debug/
 
 
 # data 
-backend/Data/*
-backend/VectorStore/* 
+# backend/Data/*
+# backend/VectorStore/* 

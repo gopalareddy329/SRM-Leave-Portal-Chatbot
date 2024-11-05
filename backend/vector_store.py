@@ -35,7 +35,7 @@ class FAISSRetriever:
 
     def get_retriever(self):
         if self.vector_store:
-            return self.vector_store.as_retriever()
+            return self.vector_store.as_retriever(k=3)
         else:
             print("Vector store is not initialized.")
             return None

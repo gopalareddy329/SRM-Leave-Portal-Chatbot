@@ -1,0 +1,128 @@
+{
+    "casual leave (CL)": {
+        "eligibility": "All employees(teaching faculties , research scholar , junior research fellow(JRF), senior research fellow (SRF), Project Fellow) of the SRM IST are eligible to avail up to 12 days of Casual Leave in a year.",
+        "leave credit ": "One day CL will be credited on the first day of every month. Normally, one day of Casual Leave will be sanctioned to the probationary employee in a month. ",
+        "number of days": "The number of days for both reserch scholars and teaching faculty is from half a day to available credit days.",
+        "exceed leave limit": "If CL is availed of more than one's available leave balance due to unforeseen circumstances, the leave account will show a minus balance. This shall be reconciled in the last month of the year, Half-day CL is premitted ",
+        "continuous leave": "The total leave [including Public holidays / RH and Compensatory Leave] availed at a time should not exceed 10 days. If the leave period exceeds 10 days, the whole period of absence will be treated as Earned Leave. If the eleventh day or subsequent day(s) happens to be holiday(s), in such case too, the whole period of absence will be treated as EL. ",
+        "restrictions": "No advanced CL is premitted. ",
+        "time limit to apply": "casual leave must be applied within the next day of the leave taken before 11:59pm",
+        "end of year conversion": " At the end of the year, the balance will be adjusted against Accumulated / Earned Leave. If Accumulated / Earned Leave is also not available, then it will be treated as Leave on Loss of Pay (LOP). Unavailed Casual Leave will lapse automatically at the end of the year. ",
+        "how to apply" : "Login to the SRM Employee portal and click the leave section , click apply leave and select casual leave , the avaiable casual leave balance is showed in your account and select the number of days and submit. You will recieve a notification if your leave is approved , the casual leave is to be applied within the next day"  , 
+        "combination - Casual Leave (CL) / Earned Leave(EL)" : " The total leave [including Public holidays / RH and Compensatory Leave] availed at a time should not exceed 10 days. If the leave period exceeds 10 days , then the whole period is treated as Earned Leave. If the eleventh day or subsequent day(s) happens to be holiday(s), in such case too, the whole period of absence will be treated as EL." , 
+        "combination - Casual Leave (CL) / Compensatory Off (CO)" : "Casual leave can be combined with Compensatory Off as long as the consecutive leave does not exceed 10 days" , 
+        "combination - Casual Leave (CL) / On Duty (OD)" : "Casual Leave(CL) cannot be combined with On Duty (OD)" , 
+        "combination - Casual Leave (CL) / Vacation Leave (VL)" : "Casual Leave(CL) cannot be combined with Vacation Leave(VL)" , 
+        "combination - Casual Leave (CL) / Accumulated Leave (AL)" : "Casual Leave(CL) can be combined with Accumulated Leave(AL)" , 
+        "combination - Casual Leave (CL) / Medical Leave (ML)" : "Casual Leave(CL) cannot be combined with Medical Leave(ML)" , 
+        "combination - Casual Leave (CL) / Maternity Leave (MTL)" : "Casual Leave(CL) cannot be combined with Maternity Leave(MTL)" , 
+        "combination - Casual Leave (CL) / Restricted Holiday (RH)" : "Casual Leave(CL) can be combined with Restricted Holiday(RH)" ,
+        "combination - Casual Leave (CL) / Permission (LP)" : "If permission is availed more than one hour then 1 Day Casual Leave is deducted" ,
+        "combination - Other Leave" : "No other leave can be combined"  
+    },
+    "compensatory off (CO)": {
+        "eligibility": "HoD if found appropriate, must approve the working on a Sunday or Public Holiday, After the approval, the employee must attend the work on the Sunday or Public Holiday. There must be an in / out punch on that date.",
+        "number of days": "Days will be credited based on prior approval.",
+        "leave credit": "Days will be credited based on prior approval.Compensatory off(CO) cannot be applied for half a day",
+        "exceed leave limit": "Total of all these leaves taken at one time should not exceed 10 days.",
+        "continuous leave": "Total of all these leaves taken at one time should not exceed 10 days. ",
+        "restrictions": "CO should be availed within 3 months from the date of performing duty on holidays otherwise the compensatory leave will lapse. CO will not be granted to any employee for conducting special classes and SRM IST Practical Examinations, this cannot be clubbed with any other leave - except CL",
+        "how to apply" : "Login to the SRM Employee portal The individual employee must request for approval for working on a Sunday or public holiday through the leave management, based on the work assigned by the Head of the Department. This request must be obtained in advance, similar to the application for leave." 
+    },
+    "on duty": {
+        "eligibility": "Employees are allowed to avail 'On Duty' for the duties attended outside SRMIST that is assigned by the competent authority",
+        "restrictions" : "OD is only for a full day and there is no half-day OD, OD must have been approved in advance by the respective Head / Authority,OD cannot be carried forward.",
+        "number of days": "From 1 day to a maximum of 10 days per year can be used for this purpose for both research scholars and teaching faculty.on duty cannot be applied for half a day ",
+        "leave credit": "10 days per year at the beginning of the every calendar year.",
+        "exemptions": "If all 10 days are exhausted, request must be submitted to Dean CET through the HoD / Chairperson or School Dean. Based on their recommendation, OD credit will be given. The employee must apply OD only through the Leave Management module.",
+        "how to apply": "For 'On Duty' leave, individuals must apply through the portal. Select On duty and provide the proof or documentation from the registar/person of responsibility after the the day of OD "
+    },
+    "vacation leave": {
+        "avail period": "Vacation Leave can be availed only after the announcement of vacation period. The vacation period will be declared by the Director/Dean of the faculty concerned. May be taken in two spells. During the vacation period only CL, TL and permission is allowed. ",
+        "restrictions": "Casual Leave, Earned Leave, Compensatory Leave, OD, etc., cannot be combined with Vacation Leave. " ,
+        "exemptions" : "On-Duty in respect of examination related work assigned by the CoE, VC nominee for faculty recruitment,FIIP, FAP, or any other work assigned and approved by the VC, Registrar, Head of the Faculty will be handled separately by the Office of the Dean CET. The office of the Dean CET will accept the On-Duty if and only if there is a formal order or communication from the above referred authorities.",
+        "how to apply" : "Login to SRM portal and click leave section and select vacation leave , check the balance of vacation leave and apply according to the guidelines",
+        "eligibility" : {
+        "faculty served for 2 semesters" : " Faculty who has fully served for two semesters in an academic year is eligible to avail 60 days of vacation leave, including intervening holidays, in two spells [i.e. November - December and May-June]." ,
+        "faculty served less than 1 semester" : "If the faculty has served only one semester, he/she is eligible for 30 days of Vacation Leave. During November-December, the vacation leave will be restricted to 30 days at a time. If the service period is less than one semester, the VL will be calculated/sanctioned on a pro-rata basis. The Vacation Leave may be availed in two spells in each vacation with a minimum of 15 days." ,
+        "non teaching academy staff" : "Non-teaching academic staff member is also eligible for Vacation Leave of 15 days during probation [one year] on a pro-rata basis of 1.25 days per month and 30 days per year from 2nd year. This leave can be availed only during the vacation period, as declared by the Director/Dean",
+        "how to apply" : "Login to SRM portal and click leave section and the vacation leave will be available if the period is declared by dean , apply for the number of days as per the guidelines"
+        }
+    },
+    "accumulated leave": {
+        "eligibility": "The teaching faculty should have fully served for 1 semester.",
+        "leave credit": "50% of the unaviled vacation leave of a faculty and non-teaching academic staff will be treated as Accumulated Leave for succeeding academic year.",
+        "number of days": "From 1 day to a maxmimum of 10 days can be granted.",
+        "continuous leave": "accumulated leave can be availed up to 10 days at a time, including holidays during regular working days." ,
+        "restrictions": "ACL must be applied in advance and got it approved before availing the ACL. And, If the ACL application is rejected the absence will be treated as Loss of pay,ACL cannot be applied everyday for continuous days of absence.",
+        "how to apply" : "Login to SRM portal and click leave section and select accumulate leave , check the balance of accumulated leave and apply according to the guidelines"
+    },
+    "earned leave": {
+        "eligibility": "Every Administrative staff is eligible for Earned Leave.There is no earned leave for teaching faculty,junior research fellow(JRF),senior research fellow(SRF) and project fellow.",
+        "number of days": "15 days during the period of probation. On completion of the probation period, they are eligible for 30 days of Earned Leave per year. The leave will be credited on a pro-rata basis at the end of every month.",
+        "restrictions": "Availing of half-a-day EL is not permitted.",
+        "end of year conversion": "50% of unavailed Earned Leave shall be carried over to next year's leave account subject to a maximum accumulation of 60 days." ,
+        "how to apply" : "Login to SRM portal and click leave section and select earned leave , check the balance of accumulated leave and apply according to the guidelines "
+    },
+    "medical leave": {
+        "rules": "Medical Leave must be applied in advance, through the leave management portal. Just email request for ML will be considered as a preliminary information to the department and will not be considered as a formal ML application, Medical Leave can be rejected if the reporting officer or the Head of the faculty is not convinced about the genuineness of the medical documents submitted. In such cases, the absence will be treated as Loss of Pay.",
+        "number of days": "The number of days for both reserch scholars and teaching faculty is from 5 days to total available credit days present in the employee's account.",
+        "leave credit": "9 days per year, credited at the beginning of every year.",
+        "eligibility": "All employees (including Research Scholars)are eligible for Minimum of 3 days upto the maximum credit available as per eligibility, can be availed, 3 days upto 15 days, HoDs are empowered to approve, for eligibility of periods more than 15days is to go through a TWO-LEVEL approval process-'type'- 'eligibility for more than 15days of ML' to get to know the 2 level approval process.",
+        "eligibilty for more than 15 days of medical leave": "First level approval is accorded by the reporting officer based on the preliminary medical documents, Second level approval will be done by the Head of the Faculty, only when the employee submits the hard copy of the proof of surgery / medical treatment / discharge summary or equivalent medical documents. It is strongly recommended to submit the above documents latest by the end of the first ML period. Extension of ML will be considered only when the above documents are submitted as proof of medical condition, Only after the second level approval is accorded, the medical leave is considered to be approved.",
+        "end of year conversion": "ml leave cannot be converted",
+        "time limit to apply": "medical leave must be applied within 3 days of the leave taken before 11:59pm",
+        "restrictions": "Failure to submit the hard copy of the proof of surgery / medical treatment / discharge summary or equivalent medical documents will result in Loss of Pay,Fitness certificate / endorsement must be produced within TWO working days of reporting back to work." , 
+        "exemptions" : "ML is not eligible for the junior research fellow(JRF) / senior research fellow (SRF) / Project Fellow." ,
+        "how to apply" : "Login to SRM portal and click leave section and select medical leave , submit the necessary medical documents as per the guidelines and click apply, you will be notified the aproval status of application in 2-3 working days."
+
+    },
+    "maternity leave": {
+        "rules": "Must be applied in advance, through the leave management portal. Just email request for Maternity Leave will be considered as a preliminary information to the department and will not be considered as a formal Maternity Leave application.",
+        "number of days for research scholars": "The number of days is from '30 to 240 days'.",
+        "number of days for teaching faculty": "The number of days is from '30 to 90 days'.",
+        "eligibility": "Approval will be done by the Reporting Officer or the Head of the Faculty, only when the employee submits the hard copy of the proof of surgery / medical treatment or equivalent medical documents. It is strongly recommended to submit the above documents latest by the end of the first Maternity Leave period. Extension of Maternity Leave will be considered only when the above documents are submitted as proof of medical condition.",
+        "eligibility for research scholar" : "Approval will be done by the Reporting Officer or the Head of the Faculty, only when the employee submits the hard copy of the proof of surgery / medical treatment or equivalent medical documents. It is strongly recommended to submit the above documents latest by the end of the first Maternity Leave period. Extension of Maternity Leave will be considered only when the above documents are submitted as proof of medical condition.",
+        "restrictions": "Maternity Leave can be rejected if the reporting officer or the Head of the faculty is not convinced about the genuineness of the medical documents submitted. In such cases, the absence will be treated as Loss of Pay. ",
+        "exemptions" : "No Maternity leave for the JRF / SRF / Project Fellow. The Project Fellow can avail his/her leave based on the conditions of the Project and consent of the Principal Investigator concerned for the particular Project. ",
+        "how to apply" : "Login to SRM portal and click leave section and select maternity leave and apply according to the guidelines"
+    },
+    "restricted holiday": {
+        "eligibility": "Every teaching faculty (no other staff) is eligible for two days of Restricted Holiday irrespective of the religion and leave can be availed as per the list of Restricted Holidays and approved by the competent authority. RH can be combined with Casual Leave and Compensatory Leave." ,
+        "leave credit": "2 days per year at the beginning of the every calendar year.",
+        "number of days": "From 1 to 2 days will be provided.restricted holiday cannot be applied for half a day",
+        "how to apply" : "Restricted holidays dates will be founded in the SRMIST approved list, Login to SRM portal and click leave section and select restricted leave , and apply according to the guidelines"
+    },
+    "leave on loss of pay": {
+        "details": "Leave on Loss of Pay will be granted only on the merit of the case. The period of Leave on Loss of Pay will lead to the postponement of the annual increment. " ,
+        "how to apply" :"Any failure of leave application or rejection of leave by corcerned authority will automatically convert the leave to leave on loss of pay"
+    },
+    "turn leave": {
+        "eligibility": "Non-teaching academic and Administrative staff is eligible for Turn Leave, and this leave can be availed every alternate Saturday.",
+        "restrictions": "This leave is not applicable for Employees of the Maintenance Department of all campuses, Estate offices and Attenders of all departments/directorates." ,
+        "exemptions" : "TL is not applicable for junior research fellow(JRF)/senior research fellow(SRF)/Project Fellow." ,
+        "how to apply" : "Login to SRM portal and click leave section and select turn leave , and click apply according to the guidelines " 
+    },
+    "permission": {
+        "eligibility" : "Every Faculty and Non-Teaching Academic/Administrative staff can avail one- hour permission either in the morning or in the evening on two occasions in a month" ,
+        "restrictions" : "If an employee avails permission both in the morning and evening on the same day, one day Casual Leave will be deducted. " ,
+        "how to apply" : "Is automatically noted by the attendance system and no need to apply" 
+    }, 
+    "Half Day Leave" : { 
+        "eligibility" : "Only casual leave is eligible for half-day leave , in that case, the half-day leave unit will be deducted from the available balance.  " ,
+        "how to apply" : "Login into portal , select leave section and select casual leave , select half day and date of leave"
+    },
+    "Cancellation of leave": {
+        "eligibility" : "Cancellation of leave in part or full must be requested in writing to the reporting officer.",
+        "restrictions" : "The reporting officer has appropriate rights to cancel the leave, as per request."
+    },
+    "Biometric attendance issue" : {
+        "rules": "All employees are encouraged to punch the In and Out time with a buffer time,Employees are also strongly advised to double-check the attendance, In and Out time, the same day. Incase of missed attendance for whatsoever reason, you are advised to apply for leave on the same day.",
+        "exemptions" : "Issue with the biometric machine, it is recommended to try marking the attendance in the other biometric machines, If there is a snag in the device, you may raise a ticket to ITKM the same day. If the ITKM provides proper validation, only then the attendance will be considered.",
+        "restrictions": "If the facial recognition is found not validated, then the request for approval wil be summarily rejected."
+    }
+
+}
+
+sudo growpart /dev/xvda <partition-number>
+sudo resize2fs /dev/xvda<partition-number>

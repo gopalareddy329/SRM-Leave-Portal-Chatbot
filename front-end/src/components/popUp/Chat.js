@@ -45,7 +45,7 @@ const Chat = ({setShowChat}) => {
         const fetchResponse = async () =>{
             updateLoding(true)
             try{
-              var url=`${BASE_API}/api/getres/?question=${encodeURIComponent(event.target.elements.userquerry.value)}/`;
+              var url=`${BASE_API}/post_query/?query=${encodeURIComponent(event.target.elements.userquerry.value)}/`;
               const res= await fetch(url)
               const response = await res.json()
               if(res.ok){

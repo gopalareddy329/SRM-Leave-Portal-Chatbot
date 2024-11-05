@@ -82,7 +82,7 @@ const Chat = () => {
         <div className='flex   h-screen'>
             <div className='bg-[#003554] w-[30%] flex justify-center items-center  h-full  max-md:hidden '>
                 <div className='flex h-full w-full flex-cols justify-center items-center '>
-                    <h1 className='text-[40px] text-white font-bold max-md:text-[20px] text-center  '> SRM Portal Chat Bot</h1>
+                    <h1 className='text-[40px] text-white font-bold max-md:text-[20px] text-center  '> Leave Portal Chat Bot</h1>
                 </div>
             </div>
 
