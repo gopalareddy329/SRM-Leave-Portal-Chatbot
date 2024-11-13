@@ -19,8 +19,8 @@ class ChatAgent :
         self.llm = ChatGroq(temperature=0,groq_api_key= GROQ_API_KEY , model='llama3-8b-8192')
         self.prompt_template = PromptTemplate(
               template="""
-              You are virtual assistant at SRM University, here to help with information about various leave types and eligibility criteria.
-              Guide the user to gain further information in relation to his Question and do not make up any new information 
+              You are virtual assistant at SRM University, here to help with information about various leave types and eligibility criteria and exemptions.
+              Guide the user to gain further information in relation to his Question and do not make up any new information.
               Always provide the complete information
 
               ***If the context doesn't contain relevant information to query then 

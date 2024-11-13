@@ -3,9 +3,10 @@
         "eligibility": "All employees(teaching faculties , research scholar , junior research fellow(JRF), senior research fellow (SRF), Project Fellow) of the SRM IST are eligible to avail up to 12 days of Casual Leave in a year.",
         "leave credit ": "One day CL will be credited on the first day of every month. Normally, one day of Casual Leave will be sanctioned to the probationary employee in a month. ",
         "number of days": "The number of days for both reserch scholars and teaching faculty is from half a day to available credit days.",
-        "exceed leave limit": "If CL is availed of more than one's available leave balance due to unforeseen circumstances, the leave account will show a minus balance. This shall be reconciled in the last month of the year, Half-day CL is premitted ",
-        "continuous leave": "The total leave [including Public holidays / RH and Compensatory Leave] availed at a time should not exceed 10 days. If the leave period exceeds 10 days, the whole period of absence will be treated as Earned Leave. If the eleventh day or subsequent day(s) happens to be holiday(s), in such case too, the whole period of absence will be treated as EL. ",
+        "leave limit exceed": "If CL is availed of more than one's available leave balance due to unforeseen circumstances, the leave account will show a minus balance. This shall be reconciled in the last month of the year, Half-day CL is premitted ",
+        "continuous leave": "The total leave [including Public holidays / RH and Compensatory Leave] availed at a time should not exceed 10 days. If the leave period exceeds 10 days, the whole period of absence will be treated as Loss of Pay then you should follow re-joining process. If the eleventh day or subsequent day(s) happens to be holiday(s), in such case too, the whole period of absence will be treated as LOP. ",
         "restrictions": "No advanced CL is premitted. ",
+        "exemptions":"Apart from Computational Intelligence faculty members, all other faculty members are required to follow the check-in and check-out policy.",
         "time limit to apply": "casual leave must be applied within the next day of the leave taken before 11:59pm",
         "end of year conversion": " At the end of the year, the balance will be adjusted against Accumulated / Earned Leave. If Accumulated / Earned Leave is also not available, then it will be treated as Leave on Loss of Pay (LOP). Unavailed Casual Leave will lapse automatically at the end of the year. ",
         "how to apply" : "Login to the SRM Employee portal and click the leave section , click apply leave and select casual leave , the avaiable casual leave balance is showed in your account and select the number of days and submit. You will recieve a notification if your leave is approved , the casual leave is to be applied within the next day"  , 
@@ -25,6 +26,7 @@
         "number of days": "Days will be credited based on prior approval.",
         "leave credit": "Days will be credited based on prior approval.Compensatory off(CO) cannot be applied for half a day",
         "exceed leave limit": "Total of all these leaves taken at one time should not exceed 10 days.",
+        "exemptions":"Apart from Computational Intelligence faculty members, all other faculty members are required to follow the check-in and check-out policy.",
         "continuous leave": "Total of all these leaves taken at one time should not exceed 10 days. ",
         "restrictions": "CO should be availed within 3 months from the date of performing duty on holidays otherwise the compensatory leave will lapse. CO will not be granted to any employee for conducting special classes and SRM IST Practical Examinations, this cannot be clubbed with any other leave - except CL",
         "how to apply" : "Login to the SRM Employee portal The individual employee must request for approval for working on a Sunday or public holiday through the leave management, based on the work assigned by the Head of the Department. This request must be obtained in advance, similar to the application for leave." 
@@ -40,7 +42,7 @@
     "vacation leave": {
         "avail period": "Vacation Leave can be availed only after the announcement of vacation period. The vacation period will be declared by the Director/Dean of the faculty concerned. May be taken in two spells. During the vacation period only CL, TL and permission is allowed. ",
         "restrictions": "Casual Leave, Earned Leave, Compensatory Leave, OD, etc., cannot be combined with Vacation Leave. " ,
-        "exemptions" : "On-Duty in respect of examination related work assigned by the CoE, VC nominee for faculty recruitment,FIIP, FAP, or any other work assigned and approved by the VC, Registrar, Head of the Faculty will be handled separately by the Office of the Dean CET. The office of the Dean CET will accept the On-Duty if and only if there is a formal order or communication from the above referred authorities.",
+        "exemptions" : "On-Duty in respect of examination related work assigned by the CoE, VC nominee for faculty recruitment,FIIP, FAP, or any other work assigned and approved by the VC, Registrar, Head of the Faculty will be handled separately by the Office of the Dean CET. The office of the Dean CET will accept the On-Duty if and only if there is a formal order or communication from the above referred authorities. Apart from Computational Intelligence faculty members, all other faculty members are required to follow the check-in and check-out policy.",
         "how to apply" : "Login to SRM portal and click leave section and select vacation leave , check the balance of vacation leave and apply according to the guidelines",
         "eligibility" : {
         "faculty served for 2 semesters" : " Faculty who has fully served for two semesters in an academic year is eligible to avail 60 days of vacation leave, including intervening holidays, in two spells [i.e. November - December and May-June]." ,
@@ -51,8 +53,9 @@
     },
     "accumulated leave": {
         "eligibility": "The teaching faculty should have fully served for 1 semester.",
-        "leave credit": "50% of the unaviled vacation leave of a faculty and non-teaching academic staff will be treated as Accumulated Leave for succeeding academic year.",
+        "leave credit": "50% of the unaviled vacation leave of a faculty and non-teaching academic staff will be treated as Accumulated Leave for succeeding academic year (Maximumaccumulation is 30 days)",
         "number of days": "From 1 day to a maxmimum of 10 days can be granted.",
+        "exemptions":"Apart from Computational Intelligence faculty members, all other faculty members are required to follow the check-in and check-out policy.",
         "continuous leave": "accumulated leave can be availed up to 10 days at a time, including holidays during regular working days." ,
         "restrictions": "ACL must be applied in advance and got it approved before availing the ACL. And, If the ACL application is rejected the absence will be treated as Loss of pay,ACL cannot be applied everyday for continuous days of absence.",
         "how to apply" : "Login to SRM portal and click leave section and select accumulate leave , check the balance of accumulated leave and apply according to the guidelines"
@@ -61,6 +64,7 @@
         "eligibility": "Every Administrative staff is eligible for Earned Leave.There is no earned leave for teaching faculty,junior research fellow(JRF),senior research fellow(SRF) and project fellow.",
         "number of days": "15 days during the period of probation. On completion of the probation period, they are eligible for 30 days of Earned Leave per year. The leave will be credited on a pro-rata basis at the end of every month.",
         "restrictions": "Availing of half-a-day EL is not permitted.",
+        "exemptions":"Apart from Computational Intelligence faculty members, all other faculty members are required to follow the check-in and check-out policy.",
         "end of year conversion": "50% of unavailed Earned Leave shall be carried over to next year's leave account subject to a maximum accumulation of 60 days." ,
         "how to apply" : "Login to SRM portal and click leave section and select earned leave , check the balance of accumulated leave and apply according to the guidelines "
     },
@@ -73,7 +77,7 @@
         "end of year conversion": "ml leave cannot be converted",
         "time limit to apply": "medical leave must be applied within 3 days of the leave taken before 11:59pm",
         "restrictions": "Failure to submit the hard copy of the proof of surgery / medical treatment / discharge summary or equivalent medical documents will result in Loss of Pay,Fitness certificate / endorsement must be produced within TWO working days of reporting back to work." , 
-        "exemptions" : "ML is not eligible for the junior research fellow(JRF) / senior research fellow (SRF) / Project Fellow." ,
+        "exemptions" : "ML is not eligible for the junior research fellow(JRF) / senior research fellow (SRF) / Project Fellow. Apart from Computational Intelligence faculty members, all other faculty members are required to follow the check-in and check-out policy." ,
         "how to apply" : "Login to SRM portal and click leave section and select medical leave , submit the necessary medical documents as per the guidelines and click apply, you will be notified the aproval status of application in 2-3 working days."
 
     },
@@ -84,7 +88,7 @@
         "eligibility": "Approval will be done by the Reporting Officer or the Head of the Faculty, only when the employee submits the hard copy of the proof of surgery / medical treatment or equivalent medical documents. It is strongly recommended to submit the above documents latest by the end of the first Maternity Leave period. Extension of Maternity Leave will be considered only when the above documents are submitted as proof of medical condition.",
         "eligibility for research scholar" : "Approval will be done by the Reporting Officer or the Head of the Faculty, only when the employee submits the hard copy of the proof of surgery / medical treatment or equivalent medical documents. It is strongly recommended to submit the above documents latest by the end of the first Maternity Leave period. Extension of Maternity Leave will be considered only when the above documents are submitted as proof of medical condition.",
         "restrictions": "Maternity Leave can be rejected if the reporting officer or the Head of the faculty is not convinced about the genuineness of the medical documents submitted. In such cases, the absence will be treated as Loss of Pay. ",
-        "exemptions" : "No Maternity leave for the JRF / SRF / Project Fellow. The Project Fellow can avail his/her leave based on the conditions of the Project and consent of the Principal Investigator concerned for the particular Project. ",
+        "exemptions" : "No Maternity leave for the JRF / SRF / Project Fellow. The Project Fellow can avail his/her leave based on the conditions of the Project and consent of the Principal Investigator concerned for the particular Project. Apart from Computational Intelligence faculty members, all other faculty members are required to follow the check-in and check-out policy.",
         "how to apply" : "Login to SRM portal and click leave section and select maternity leave and apply according to the guidelines"
     },
     "restricted holiday": {
@@ -100,7 +104,7 @@
     "turn leave": {
         "eligibility": "Non-teaching academic and Administrative staff is eligible for Turn Leave, and this leave can be availed every alternate Saturday.",
         "restrictions": "This leave is not applicable for Employees of the Maintenance Department of all campuses, Estate offices and Attenders of all departments/directorates." ,
-        "exemptions" : "TL is not applicable for junior research fellow(JRF)/senior research fellow(SRF)/Project Fellow." ,
+        "exemptions" : "TL is not applicable for junior research fellow(JRF)/senior research fellow(SRF)/Project Fellow. Apart from Computational Intelligence faculty members, all other faculty members are required to follow the check-in and check-out policy." ,
         "how to apply" : "Login to SRM portal and click leave section and select turn leave , and click apply according to the guidelines " 
     },
     "permission": {
@@ -110,7 +114,8 @@
     }, 
     "Half Day Leave" : { 
         "eligibility" : "Only casual leave is eligible for half-day leave , in that case, the half-day leave unit will be deducted from the available balance.  " ,
-        "how to apply" : "Login into portal , select leave section and select casual leave , select half day and date of leave"
+        "how to apply" : "Login into portal , select leave section and select casual leave , select half day and date of leave",
+        "exemptionss":"Apart from Computational Intelligence faculty members, all other faculty members are required to follow the check-in and check-out policy."
     },
     "Cancellation of leave": {
         "eligibility" : "Cancellation of leave in part or full must be requested in writing to the reporting officer.",
@@ -123,6 +128,3 @@
     }
 
 }
-
-sudo growpart /dev/xvda <partition-number>
-sudo resize2fs /dev/xvda<partition-number>

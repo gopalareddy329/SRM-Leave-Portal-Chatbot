@@ -9,8 +9,8 @@ const Nav = () => {
                 <h3 className='uppercase font-[700] text-[20px]'><a href='/'>Leave Bot</a></h3>
             </div>
             <div className='flex gap-5'>
-                <a href='/contact' className='p-2'>Contact</a>
-                <a href='/login' className='shadow-2xl  text-[18px] bg-[#003554] text-white  rounded-md p-2'>Login</a>
+                {/* <a href='/contact' className='p-2'>Contact</a>
+                <a href='/login' className='shadow-2xl  text-[18px] bg-[#003554] text-white  rounded-md p-2'>Login</a> */}
             </div>
         </ContentWrapper>
     </div>
