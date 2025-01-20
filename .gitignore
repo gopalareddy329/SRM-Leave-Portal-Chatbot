@@ -194,3 +194,5 @@ cython_debug/
 # data 
 # backend/Data/*
 # backend/VectorStore/* 
+srm-bot.pem
+test.json
